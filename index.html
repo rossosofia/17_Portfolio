@@ -12,32 +12,83 @@
       <a href="index.html" id="dark-theme" class="active">+</a>
       <ul id="menu">
         <li><a href="#projects-heading">Projects</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#about">About</a></li>
       </ul>
     </nav>
     <header>
+      <img src="assets/doodle.jpg" alt="pro-pic" />
       <div id="header-content">
-        <h1>Sofia Amoroso</h1>
+        <h1>
+          Sofia <br />
+          Amoroso
+        </h1>
         <p id="header-p">
-          Here you will find a collection of projects showcasing the skills I've
-          learned throughout the theme, including design fundamentals such as
-          typography and color theory, CSS techniques such as conditional rules
-          and custom properties, and JavaScript animations.
-          <!-- I am a multimedia designer specializing in front-end development and
+          I am a multimedia designer specializing in front-end development and
           currently seeking an internship in this field. Here you will find a
           selection of my most relevant works showcasing my skills in web
-          design, coding, and user experience. -->
+          design, coding, and user experience.
         </p>
         <div id="header-info">
           <p>Front-end developer</p>
           <p>Copenhagen, Denmark</p>
         </div>
       </div>
-      <img src="assets/doodle.jpg" alt="pro-pic" />
     </header>
     <main>
       <h2 id="projects-heading">Projects</h2>
       <section id="projects">
+        <article class="card">
+          <a href="project1.html">
+            <img id="card-img" src="assets/placeholder.png" alt="preview" />
+
+            <div id="container" class="hidden">
+              <div id="card-info" class>
+                <p class="title">Piscaria</p>
+                <div id="key-words-container">
+                  <p class="key-words">Illustration</p>
+                  <p class="key-words">Key word</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="project2.html">
+            <img id="card-img" src="assets/placeholder.png" alt="preview" />
+            <div id="container" class="hidden">
+              <div id="card-info" class>
+                <p class="title">Colors and Animations</p>
+                <div id="key-words-container">
+                  <p class="key-words">Key word</p>
+                  <p class="key-words">Key word</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="card">
+          <a
+            href="https://rossosofia.github.io/13c.02.01.responsive-design/"
+            target="_blank"
+          >
+            <img id="card-img" src="assets/placeholder.png" alt="preview" />
+
+            <div id="container" class="hidden">
+              <div id="card-info" class>
+                <p class="title">Responsive design</p>
+                <div id="key-words-container">
+                  <p class="key-words">Key word</p>
+                  <p class="key-words">Key word</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      </section>
+      <h2 id="projects-heading">Playing around</h2>
+      <section id="experiments">
         <article class="card">
           <a href="project1.html">
             <img id="card-img" src="assets/placeholder.png" alt="preview" />
@@ -88,18 +139,11 @@
           </a>
         </article>
       </section>
-      <section id="conclusion">
-        <h2>Conclusions</h2>
-        <p>
-          This course provided me with design skills that can improve my
-          projects. The knowledge of animation techniques and libraries can
-          enhance the visual appeal and usability of digital products. Overall,
-          the course gave me a solid foundation for creating visually appealing
-          and user-friendly websites.
-        </p>
-      </section>
+      <h2 id="projects-heading">About</h2>
+      <section id="about"></section>
     </main>
     <footer>
+      <h3>Get in contact!</h3>
       <div>
         <a href="https://www.linkedin.com/in/sofia-amoroso/" target="_blank"
           >LinkedIn</a
@@ -109,9 +153,6 @@
         >
         <a href="mailto:sof.amoroso@gmail.com">Email</a>
       </div>
-      <p class="active">
-        KEA Copenhagen Businnes School - Design For Developers
-      </p>
     </footer>
   </body>
   <script src="script.js"></script>
